@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  web:
+    build: ./devops/nginx/
+    volumes: 
+      - ./example.com:/var/www/example.com/html
+    ports: 
+      - "80:80"
+    links:
+      - php
+
+  php:
+    build: ./devops/php7.2/
+    volumes: 
+      - ./example.com:/var/www/example.com/html
