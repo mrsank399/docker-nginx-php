@@ -1,4 +1,5 @@
 # Docker container for NGINX/PHP
+[![CircleCI](https://circleci.com/gh/mrsank399/docker-nginx-php.svg?style=shield)](https://circleci.com/gh/mrsank399/docker-nginx-php)
 
 The container can be used as a skelton container for the PHP projects. 
 
