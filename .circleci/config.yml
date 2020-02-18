@@ -8,7 +8,9 @@ jobs:
          echo "$DOCKER_PASS" | docker login --username $DOCKER_USER --password-stdin
 
      # build the application image
-     - run: docker build -t mrsank/nginx-php:latest .
+     - run: docker build -t mrsank/nginx-alpine:latest ./devops/nginx/
+     - run: docker build -t mrsank/php7.2-alpine:latest ./devops/php7.2/
 
      # deploy the image
-     - run: docker push mrsank/nginx-php:latest
+     - run: docker push mrsank/nginx-alpine:latest
+     - run: docker push mrsank/php7.2-alpine:latest
