@@ -1,7 +1,8 @@
 # Docker container for NGINX/PHP
 [![CircleCI](https://circleci.com/gh/mrsank399/docker-nginx-php.svg?style=shield)](https://circleci.com/gh/mrsank399/docker-nginx-php)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4fdd5ee3d67b4eb2864d687716068502)](https://www.codacy.com/manual/mrsank/docker-nginx-php_2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mrsank399/docker-nginx-php&amp;utm_campaign=Badge_Grade)
-The container can be used as a skelton container for the PHP projects. 
+
+##### The container can be used as a skelton container for the PHP projects. 
 
 ## Usage
 
